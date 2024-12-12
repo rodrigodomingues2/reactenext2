@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <header className={styles.header}>
     <h1> React e Next.js</h1>
-    <nav> className={styles.nav}>
+    <nav> className={styles.nav}
       <Link href="/"> Home </Link>
       </nav>
     </header>
