@@ -34,7 +34,7 @@ export default function ProductsPage() {
       <h1>Lista de Produtos</h1>
       {data.map((product) => (
         <div key={product.id}>
-          {product.name} {/* Aqui você vê só o nome, para testar */}
+          {product.title} {/* Aqui você vê só o nome, para testar */}
         </div>
       ))}
     </div>

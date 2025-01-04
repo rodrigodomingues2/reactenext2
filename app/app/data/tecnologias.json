@@ -1,0 +1,75 @@
+[
+    {
+      "title": "HTML",
+      "image": "/images/html.png",
+      "description": "Linguagem de marcação para estruturar conteúdo na web.",
+      "rating": 5
+    },
+    {
+      "title": "CSS",
+      "image": "/images/css.png",
+      "description": "Folhas de estilo para estilizar páginas web.",
+      "rating": 4
+    },
+    {
+      "title": "JavaScript",
+      "image": "/images/javascript.png",
+      "description": "Linguagem de programação para a web.",
+      "rating": 5
+    },
+    {
+      "title": "JSON",
+      "image": "/images/json.png",
+      "description": "Formato leve para troca de dados.",
+      "rating": 4
+    },
+    {
+      "title": "API RESTful",
+      "image": "/images/api.png",
+      "description": "Modelo arquitetural para construir APIs.",
+      "rating": 5
+    },
+    {
+      "title": "Swagger",
+      "image": "/images/swagger.png",
+      "description": "Ferramenta para documentar APIs.",
+      "rating": 4
+    },
+    {
+      "title": "GitHub",
+      "image": "/images/github.png",
+      "description": "Plataforma para controle de versão.",
+      "rating": 5
+    },
+    {
+      "title": "Codespaces",
+      "image": "/images/codespaces.png",
+      "description": "Ambiente de desenvolvimento na nuvem.",
+      "rating": 4
+    },
+    {
+      "title": "GitHub Pages",
+      "image": "/images/github-pages.png",
+      "description": "Hospedagem de sites estáticos.",
+      "rating": 4
+    },
+    {
+      "title": "React.js",
+      "image": "/images/react.png",
+      "description": "Biblioteca para criar interfaces de usuário.",
+      "rating": 5
+    },
+    {
+      "title": "Next.js",
+      "image": "/images/next.png",
+      "description": "Framework React para renderização no servidor.",
+      "rating": 5
+    },
+    {
+      "title": "Vercel",
+      "image": "/images/vercel.png",
+      "description": "Plataforma de deploy para aplicações modernas.",
+      "rating": 5
+    }
+  ]
+  

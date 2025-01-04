@@ -1,7 +1,12 @@
-/* app/api/products/route.ts */
-
 export async function GET() {
-    return fetch('https://deisishop.pythonanywhere.com/products')
-      .then((res) => res.json())
-      .then((data) => Response.json(data));
+  try {
+      const response = await fetch('https://deisishop.pythonanywhere.com/products');
+      if (!response.ok) {
+          return new Response(JSON.stringify({ error: 'Failed to fetch products' }), { status: 500 });
+      }
+      const data = await response.json();
+      return new Response(JSON.stringify(data), { status: 200 });
+  } catch (error) {
+      return new Response(JSON.stringify({ error: 'An error occurred while fetching data' }), { status: 500 });
   }
+}

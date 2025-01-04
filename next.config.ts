@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['deisishop.pythonanywhere.com'], // Domínio permitido para imagens externas
+  },
+  /* outras configurações aqui */
 };
 
 export default nextConfig;
